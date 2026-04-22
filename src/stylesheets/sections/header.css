@@ -1,0 +1,30 @@
+.Header {
+    .HeaderAll {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .HeaderLogo {
+            img {}
+        }
+
+        .HeaderNav {
+            display: flex;
+            flex-direction: row;
+            column-gap: 48px;
+
+            a {
+                color: #EFD4A0;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.8px;
+            }
+        }
+
+        .HeaderApplicattion {
+            a {}
+        }
+    }
+}

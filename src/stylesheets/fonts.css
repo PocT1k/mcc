@@ -12,10 +12,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("../fonts/AnonymousPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   /* fonts */
   --font-InstrumentSerif: "Instrument Serif", Georgia, "Times New Roman", serif;
   --font-InstrumentSans: "Instrument Sans", "Arial", "Helvetica", sans-serif;
+  --font-AnonymousPro: "Anonymous Pro", "Courier New", monospace;
 }
 
 /* Heading */
@@ -25,6 +33,17 @@
   font-size: 6.5rem;
   line-height: 100%;
   letter-spacing: -0.325rem;
+  text-transform: uppercase;
+}
+
+/* Subtitle  */
+.U_FontS1 {
+  color: var(--colors-bw-0);
+  font-family: var(--font-AnonymousPro);
+  font-size: 2.5rem;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0rem;
   text-transform: uppercase;
 }
 
