@@ -1,24 +1,40 @@
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('../fonts/pt-root-ui_bold.woff'),
-    url('../fonts/pt-root-ui_bold.woff2');
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('../fonts/pt-root-ui_medium.woff'),
-    url('../fonts/pt-root-ui_medium.woff2');
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('../fonts/pt-root-ui_regular.woff'),
-    url('../fonts/pt-root-ui_regular.woff2');
+  font-family: "Instrument Serif";
+  src: url("../fonts/InstrumentSerif-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
 }
+
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('../fonts/pt-root-ui_light.woff'),
-    url('../fonts/pt-root-ui_light.woff2');
-  font-weight: 300;
+  font-family: "Instrument Sans";
+  src: url('../fonts/InstrumentSans-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  /* fonts */
+  --font-InstrumentSerif: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-InstrumentSans: "Instrument Sans", "Arial", "Helvetica", sans-serif;
+}
+
+/* Heading */
+.U_FontH1 {
+  color: var(--colors-bw-0);
+  font-family: var(--font-InstrumentSerif);
+  font-size: 6.5rem;
+  line-height: 100%;
+  letter-spacing: -0.325rem;
+  text-transform: uppercase;
+}
+
+/* Caption */
+.U_FontC1 {
+  color: var(--colors-bw-0);
+  font-family: var(--font-InstrumentSans);
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 145%;
+  letter-spacing: 0rem;
+  text-transform: none;
 }

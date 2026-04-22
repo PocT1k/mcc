@@ -1,3 +1,3 @@
-import '../stylesheets/style.css'
+import '../stylesheets/index.css'
 
 console.log('hey')
